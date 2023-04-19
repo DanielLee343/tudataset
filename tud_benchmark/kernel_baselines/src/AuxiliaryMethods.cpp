@@ -25,7 +25,8 @@ namespace AuxiliaryMethods {
     GraphDatabase read_graph_txt_file(string data_set_name) {
         string line;
 
-        string path = ".";
+        // string path = ".";
+        string path = "/home/cc/tudataset/tud_benchmark";
 
         vector<uint> graph_indicator;
         ifstream myfile(
@@ -145,7 +146,8 @@ namespace AuxiliaryMethods {
     vector<int> read_classes(string data_set_name) {
         string line;
 
-        string path = ".";
+        // string path = ".";
+        string path = "/home/cc/tudataset/tud_benchmark";
         //string path = "/Users/chrsmrrs/localwl_dev";
         vector<int> classes;
 
@@ -168,7 +170,8 @@ namespace AuxiliaryMethods {
     vector<float> read_targets(string data_set_name) {
         string line;
 
-        string path = ".";
+        // string path = ".";
+        string path = "/home/cc/tudataset/tud_benchmark";
         //string path = "/Users/chrsmrrs/localwl_dev";
         vector<float> classes;
 
